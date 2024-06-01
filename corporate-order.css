@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/********************************product sale start  **********************************/
+
+.product-sale{
+    background-color: #ededed;
+}
+
+.product-sale::before{
+    content: '.';
+    position: absolute;
+   background: url(images/corporate-order/bulk_order_slider_bg.webp);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    height: 100%;
+    background-position: right;
+    margin-top: 65px;
+    margin-left: -25px;
+}
+
+.corporate-image{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 350px !important;
+    margin: 45px 25px 25px 55px;
+}
+
+.corporate-order-img{
+    width: 100%;
+}
+
+.main-corporate-element{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.corporate-btn{
+    background-color: #232323;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.main-corporate-btn{
+    display: flex;
+    justify-content: center;
+}
+/******************************** product sale end  **********************************/
+
+/******************************** Get a boat start  **********************************/
+.button{
+    top: 375px !important;
+    left: 9px !important;
+}
+
+.get-boat-button{
+    width: 290px;
+    border-radius: 7px;
+    font-weight: 400;
+    background-color: #343a40;
+    border: none;
+    padding: 7px 0px;
+    color: #fff;
+}
+
+img.rounded-top.\34 .position-relative {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.card{
+    height: 460px !important;
+    border-radius: 10px !important;
+}
+
+.info-button{
+  margin-top: 38px;
+  /* margin-left: 18px; */
+  text-align: center;
+}
+
+.info-corporate-btn{
+    font-weight: 500;
+    color: #2F5B96;
+}
+
+.info-corporate-btn:hover{
+    text-decoration: none;
+}
+
+/******************************** Get a boat end  **********************************/
+
+/******************************** explore by categories start  **********************************/
+.title-border-8 {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 267px;
+}
+
+ .lifestyle-title-1 {
+    font-size: 30px !important;
+}
+/******************************** explore by categories end  **********************************/
+
+/******************************** form start  **********************************/
+.form-desc{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.form-model{
+    margin-top: -5px;
+    border-radius: 12px !important;
+    padding: 8px 120px !important;
+    font-size: 20px !important;
+    margin-bottom: 35px;
+}
+
+.btn-dark{
+    background-color: #232323 !important;
+}
+
+.from-title{
+    font-size: 18px !important;
+}
+
+.form-corporate{
+    margin-bottom: 20px;
+}
+
+.form-border{
+    border-radius: 7px !important;
+}
+
+input.col-12{
+    border: 1px solid black;
+    /* border-radius: 7px !important; */
+    padding: 4px;
+}
+
+select.col-12{
+    border: 1px solid black;
+    padding: 6px;
+}
+
+.star{
+    color: #D83333 !important;
+    font-size: 18px;
+}
+
+.modal-content{
+    border-radius: 15px !important;
+    width: 650px !important;
+    margin-left: -95px !important;
+}
+
+.modal-header{
+    border-bottom: 0px !important;
+}
+
+.modal-footer{
+    border-top: 0px !important;
+    justify-content: center !important;
+    margin-top: -70px;
+}
+
+.submit{
+    background-color: black !important;
+    width: 120px !important;
+    font-size: 18px !important;
+    border-radius: 7px !important;
+}
+
+.reset{
+    border: 1px solid black !important;
+    width: 120px !important;
+    font-size: 18px !important;
+    border-radius: 7px !important;
+}
+
+button.form-model.btn.btn-dark:focus{
+    box-shadow: none !important;
+}
+
+button.form-model.btn.btn-dark:active{
+    box-shadow: none !important;
+}
+/******************************** form end  **********************************/
+
+/******************************** mobile device start  **********************************/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /******** product sale start  ********/
+    .corporate-image{
+        width: 290px !important;
+        margin: 45px 0px 25px 20px;
+    }
+
+    .product-sale::before{
+        content: '.';
+        position: absolute;
+       background: url(images/corporate-order/bulk_order_slider_bg.webp);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        width: 100%;
+        height: 100%;
+        background-position: right;
+        margin-top: 10px;
+        margin-left: -25px;
+    }
+
+    /******** product sale end  ********/
+
+    /******** get a boat start  ********/
+
+    .button{
+        top: 330px !important;
+        left: 6px !important;
+    }
+    
+    .get-boat-button{
+        width: 265px;
+        border-radius: 7px;
+        font-weight: 400;
+        background-color: #343a40;
+        border: none;
+        padding: 7px 0px;
+        color: #fff;
+    }
+
+    .info-button{
+        margin-top: 40px;
+        /* margin-left: 18px; */
+        text-align: center;
+      }
+      
+      .info-corporate-btn{
+          font-weight: 500;
+          color: #2F5B96;
+      }    
+
+      .card{
+        height: 415px !important;
+        border-radius: 10px !important;
+    }
+
+     /******** get a boat end  ********/
+
+     /******** explore by categories start  ********/
+
+     .title-border-8 {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 205px;
+    }
+    
+     .lifestyle-title-1 {
+        font-size: 23px !important;
+    }
+
+    .lifestyle-card.card.border-0 {
+        height: 385px !important;
+    }
+     /******** explore by categories end  ********/
+
+     .form-desc{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+     .form-model{
+        margin-top: -5px;
+        border-radius: 12px !important;
+        padding: 8px 55px !important;
+        font-size: 20px !important;
+        margin-bottom: 35px;
+    }
+
+    .modal-content{
+        border-radius: 15px !important;
+        width: 360px !important;
+        margin-left: 0px !important;
+    }
+    
+}
+/******************************** mobile device end  **********************************/

@@ -1,0 +1,1093 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.white-space {
+    margin-bottom: -95px;
+}
+
+.white-space-1 {
+    margin-bottom: -15px;
+}
+
+.white-space-2 {
+    margin-bottom: -40px;
+}
+
+.white-space-3 {
+    margin-bottom: -13px;
+}
+
+.white-space-4{
+    margin-bottom: -16px;
+}
+
+/* -------------------top head section start-------------------------  */
+
+.top-title {
+    font-weight: 500;
+}
+
+.top-head {
+    font-size: 14px;
+}
+
+/* -------------------top head section end-------------------------  */
+
+/* -------------------Nav bar start-------------------------  */
+
+.searchbar {
+    background-image: url(images/magnifying-glass-solid.svg);
+    background-size: 20px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 11px;
+    padding: 8px;
+    border: none;
+    text-align: center;
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 2px solid rgb(182, 22, 22);
+}
+
+.link-tag{
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link-tag:hover{
+    text-decoration: none ;
+    color: black;
+}
+
+#dropdown-new{
+  width: 1200px;
+  margin-left: -150px;
+}
+
+.table{
+    column-gap: 25px;
+}
+
+
+/* -------------------Nav bar end-------------------------  */
+
+/* ------------------- bestseller video carousal Start------------------------  */
+
+.title-border {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 227px;
+}
+
+.post-img {
+    position: relative;
+    margin: 20px 15px 20px;
+    border-radius: 25px;
+    padding-top: 1px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* margin: -12px 15px 8px 15px; */
+    /* margin-left: -10px; */
+}
+
+.post-img video {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+
+/* ------------------- bestseller video carousal end------------------------  */
+
+/* -------------------Daily deals Start-------------------------  */
+
+.title-border-1 {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 129px;
+}
+
+.Daily-deals {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.deals-write-up {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 12px;
+}
+
+.deals-title {
+    font-size: 30px;
+}
+
+.deals-border {
+    /* margin-left: 40%; */
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 87px;
+    margin-top: -100px;
+    margin-left: 480px;
+}
+
+.deals-write-border {
+    position: absolute;
+}
+
+.deals-timer {
+    position: absolute;
+}
+
+.deals-timer-img{
+    border-radius: 12px;
+}
+
+#timer {
+    margin-top: -85px;
+    font-size: 40px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.timer-text {
+    margin-top: -75px;
+    margin-left: 525px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.card {
+    width: 310px;
+    height: 420px !important;
+    margin-left: -15px;
+}
+
+.deal-card{
+    margin-top: -7px;
+}
+
+.rounded-top {
+    height: 300px;
+}
+
+.button {
+    top: 365px;
+}
+
+.position-absolute {
+    margin-top: 94%;
+    background-color: #fcc50b;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #f8f9fa;
+    margin-left: 17%;
+    border-radius: 17px;
+    font-size: 13px;
+}
+
+/* -------------------Daily deals end-------------------------  */
+
+/* -------------------Shop by categories start-------------------------  */
+
+.title-border-2 {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 240px;
+}
+
+.Categories-font {
+    font-size: 13px;
+}
+
+#news-slider-categories {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#news-slider-categories::-webkit-scrollbar {
+    display: none;
+}
+
+.categorie-img {
+    width: 90px;
+    height: auto;
+}
+
+/* -------------------Shop by categories end-------------------------  */
+
+/* -------------------New Launch start-------------------------  */
+
+.title-border-3 {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 175px;
+}
+
+/* -------------------New Launch End-------------------------  */
+
+/* -------------------icon start-------------------------  */
+
+.icon-font {
+    font-size: 18px;
+}
+
+/* -------------------icon End-------------------------  */
+
+/* -------------------shop by lifetstyle start-------------------------  */
+
+.title-border-4 {
+    border-bottom: 2px solid #D83333;
+    width: 26px;
+    margin-top: -22px;
+    margin-left: 207px;
+}
+
+.lifestyle-card {
+    width: 245px;
+    height: 442px !important;
+}
+
+.shop-life-img {
+    height: 342px;
+    width: 245px;
+}
+
+.lifestyle-body {
+    background-color: #eff4f7;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 80px;
+}
+
+.lifestyle-title {
+    font-size: 23px;
+}
+
+/* -------------------Shop by lidestyle End-------------------------  */
+
+/* -------------------best of boat start-------------------------  */
+
+    .title-border-5 {
+        border-bottom: 2px solid #D83333;
+        width: 26px;
+        margin-top: -22px;
+        margin-left: 146px;
+    }
+
+/* .owl-carousel-1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+} */
+
+/* .best-boat-imp{
+    margin-left: -18px;
+    margin-right: -21px !important;
+} */
+
+/* .owl-carousel-1::-webkit-scrollbar {
+    display: none;
+} */
+
+#pills-tabContent{
+    margin-left: -15px;
+}
+
+#pills-tab{
+    margin-left: -15px;
+}
+
+#pills-earbuds-tab {
+    margin-left: -95px;
+}
+
+#pills-Watches-tab {
+    margin-left: -190px;
+}
+
+#pills-Wireless-tab {
+    margin-left: -290px;
+}
+
+#pills-ANC-tab {
+    margin-left: -355px;
+}
+
+.nav .nav-item {
+    margin-left: -10px;
+    font-size: 16px;
+    color: #1a2024;
+}
+
+.container-fluid .nav .nav-item .nav-link {
+    color: #1a2024;
+    border-radius: 17px;
+    padding: 4px 25px;
+}
+
+.container-fluid .nav .nav-item .active {
+    background-color: #ecf0f4;
+    color: #1a2024;
+    border-radius: 17px;
+    padding: 4px 25px;
+    font-weight: bold;
+}
+
+/* -------------------best of boat end-------------------------  */
+
+/* -------------------join the tribe start-------------------------  */
+
+.title-border-6 {
+    border-bottom: 2px solid #D83333;
+    width: 25px;
+    margin-top: -22px;
+    margin-left: 160px;
+}
+
+.tribe {
+    background-color: white;
+    width: 60px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    margin-top: 410px;
+    margin-left: 95px;
+}
+
+.main-tribe {
+    margin-top: 25px;
+    width: 250px;
+    height: 570px !important;
+}
+
+.tribe-label {
+    width: 85px;
+    font-size: 9px;
+    padding: 3px 10px 3px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 700;
+    margin-top: -430px;
+}
+
+.tribe-body-text {
+    margin-top: 420px;
+}
+
+.tribe-body-text-1 {
+    margin-top: 28px;
+}
+
+.owl-carousel {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.owl-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+/* -------------------join the tribe end-------------------------  */
+
+/* -------------------Blog start-------------------------  */
+
+.title-border-7{
+    border-bottom: 2px solid #D83333;
+    width: 16px;
+    margin-top: -22px;
+    margin-left: 75px;
+}
+
+.video-name{
+    font-size: 22px;
+}
+
+.blog-card {
+    width: 310px;
+    background-color: #f8f9fa;
+    border: 0.5px solid #e8e9eb;
+    height: 440px !important;
+}
+
+.blog-card-img {
+    height: 150px;
+    /* width: 250px; */
+}
+
+.blog-ct {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+.card-text-1 {
+    font-weight: 500;
+}
+
+.blog-btn{
+    border-color: #adaeb1 !important;
+}
+
+.blog-btn:hover{
+    background-color: #f8f9fa !important;
+    color: #1a2024 !important;
+    border-color: #adaeb1 !important;
+}
+
+/* -------------------Blog end-------------------------  */
+
+/* -------------------Footer start-------------------------  */
+
+#footer {
+    background-color: #eff4f7;
+    width: 99%;
+    margin: 8px;
+    padding: 7px;
+}
+
+.shfooter .collapse {
+    display: inherit !important;
+}
+
+.input-group {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.form-control {
+    border: none;
+    border-radius: 10px;
+}
+
+/* .btn-mail {
+    border-radius: 10px;
+    border: none !important;
+    background-color: white !important;
+} */
+
+.btn-mail:focus {
+    box-shadow: none;
+    background-color: white !important;
+    color: black;
+    border: none !important;
+}
+
+.footer-imp {
+    padding: 50px 35px 50px;
+    background-color: #e7f0f5;
+    margin-left: 0px !important;
+}
+
+.link {
+    color: black !important;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none !important;
+}
+
+/* .footer-info{
+    display: block;
+} */
+
+/* #menu{
+    display: block;
+} */
+
+.footer-list {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 4px 0px 4px;
+}
+
+.footer-list-subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.copyrights{
+    color: #adaeb1;
+    font-size: 13px;
+}
+
+.privacy-policy{
+    font-size: 13px;
+}
+
+.information-footer{
+    color: #adaeb1;
+    font-size: 13px;
+    width: 600px;
+}
+
+/* -------------------footer end-------------------------  */
+
+/* -------------------mobile device start-------------------------  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .owl-carousel {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .owl-carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .white-space-4{
+        margin-bottom: -35px;
+    }
+
+    .bestseller-imp{
+        margin-left: -15px;
+    }
+
+    .video-name{
+        font-size: 16px !important;
+    }
+
+    /* -----------navbar-------------  */
+
+    .link-tag{
+        color: black;
+        display: flex;
+        align-items: center;
+        width: 90px;
+        font-size: 10px;
+    }
+    
+    .link-tag:hover{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #dropdown-new{
+      width: 350px;
+      margin-left: 0px;
+      overflow-x: auto !important;
+      overflow-y: hidden !important;
+    }
+
+    /* -----------navbar-------------  */
+
+
+    /* -----------daily deals-------------  */
+
+    .deals-write-up {
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 7px;
+        width: 102px;
+        word-wrap: break-word;
+    }
+
+    /* .Daily-deals{
+        margin-left: -15px;
+    } */
+
+    .deals-title {
+        font-size: 10px;
+    }
+
+    .deals-border {
+        border-left: 1px solid rgb(10, 2, 29);
+        height: 33px;
+        margin-top: -38px;
+        margin-left: 110px;
+    }
+
+    .deals-write-border {
+        position: absolute;
+    }
+
+    .deals-timer {
+        position: absolute;
+    }
+
+    #timer {
+        margin-top: -25px;
+        font-size: 12px;
+        margin-left: -80px;
+        font-weight: 700;
+    }
+
+    .timer-text {
+        margin-top: -36px;
+        margin-left: 170px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .deals-timer-img {
+        height: 45px;
+        width: 109%;
+        margin-left: -12px;
+    }
+
+    .title-border {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 175px;
+    }
+
+    .title-border-1 {
+        border-bottom: 2px solid #D83333;
+        width: 21px;
+        margin-top: -22px;
+        margin-left: 100px;
+    }
+
+    .rounded-top {
+        height: 250px;
+        /* width: 200px; */
+    }
+
+    .card {
+        margin-top: 5px;
+        width: 280px;
+        height: 370px !important;
+    }
+
+    .button {
+        top: 315px;
+    }
+
+    .position-absolute {
+        margin-top: 86%;
+        background-color: #fcc50b;
+        width: 200px;
+        text-align: center;
+        border: 2px solid white;
+        margin-left: 15%;
+        border-radius: 17px;
+        font-size: 13px;
+    }
+
+    /* -----------daily deals-------------  */
+
+    /* ------------shop by categories----------------  */
+
+    .Categories-font {
+        font-size: 10px;
+    }
+
+    .title-border-2 {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 182px;
+    }
+
+    .categorie-img {
+        width: 70px;
+        height: auto;
+    }
+
+    /* ------------shop by categories----------------  */
+
+    /* -------------------New Launch start-------------------------  */
+
+    .title-border-3 {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 130px;
+    }
+    
+    .blog-imp-1{
+        margin-left: -11px;
+        margin-right: -14px;
+    }
+    /* -------------------New Launch End-------------------------  */
+
+    /* -------------------icon start-------------------------  */
+
+    .myicon {
+        width: 75px;
+    }
+
+    .icon-font {
+        font-size: 12px;
+        word-wrap: break-word;
+        width: 69px;
+    }
+
+    .icon-font-1 {
+        font-size: 12px;
+        word-wrap: break-word;
+        width: 55px;
+        margin-left: 15px;
+    }
+
+    /* -------------------icon End-------------------------  */
+
+    /* -------------------shop by lifetstyle start-------------------------  */
+
+    .owl-carousel-shop {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .owl-carousel-shop::-webkit-scrollbar {
+        display: none;
+    }
+    .title-border-4 {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 160px;
+    }
+
+    .shop-life-img {
+        height: 280px;
+        width: 200px;
+    }
+
+    .lifestyle-card {
+        width: 200px;
+        height: 370px;
+    }
+
+    .lifestyle-body {
+        height: 60px;
+    }
+
+    .lifestyle-title {
+        font-size: 19px;
+    }
+
+    /* -------------------Shop by lidestyle End-------------------------  */
+
+    /* -------------------best of boat start-------------------------  */
+
+    .title-border-5 {
+        border-bottom: 2px solid #D83333;
+        width: 26px;
+        margin-top: -22px;
+        margin-left: 107px;
+    }
+
+    .best-boat-imp{
+        margin-left: -13px;
+        margin-right: -30px !important;
+    }
+
+    #pills-tab {
+        display: flex;
+        /* flex-wrap: nowrap; */
+        margin-bottom: 10px;
+        margin-left: -20px;
+    }
+
+    .owl-carousel-1 {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .owl-carousel-1::-webkit-scrollbar {
+        display: none;
+    }
+
+    #pills-earbuds-tab {
+        margin-left: -6px;
+    }
+
+    #pills-Watches-tab {
+        margin-left: -20px;
+    }
+
+    #pills-Wireless-tab {
+        margin-left: -35px;
+    }
+
+    #pills-ANC-tab {
+        margin-left: -10px;
+    }
+
+    .nav .nav-item {
+        margin-left: -9px;
+        font-size: 17px;
+    }
+
+    .container-fluid .nav .nav-item .nav-link {
+        color: #1a2024;
+        border-radius: 17px;
+        padding: 4px 18px;
+    }
+
+    .container-fluid .nav .nav-item .active {
+        background-color: #ecf0f4;
+        color: #1a2024;
+        border-radius: 17px;
+        padding: 4px 18px;
+        font-weight: bold;
+    }
+
+    /* -------------------best of boat end-------------------------  */
+
+    /* -------------------join the tribe start-------------------------  */
+
+    .tribe-imp{
+        margin-left: -18px;
+        margin-right: -16px;
+    }
+
+    .title-border-6 {
+        border-bottom: 2px solid #D83333;
+        width: 25px;
+        margin-top: -22px;
+        margin-left: 118px;
+    }
+
+    .tribe {
+        background-color: white;
+        width: 60px;
+        height: auto;
+        border-radius: 6px;
+        border: 1px solid lightgray;
+        margin-top: 300px;
+        margin-left: 68px;
+    }
+
+    .main-tribe {
+        margin: 20px -10px 20px;
+        width: 190px;
+        height: 445px !important;
+    }
+
+    .tribe-label {
+        width: 85px;
+        font-size: 9px;
+        padding: 3px 10px 3px 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-weight: 700;
+        margin-top: -322px;
+    }
+
+    .tribe-body-text {
+        margin-top: 310px;
+    }
+
+    .tribe-body-text-1 {
+        margin-top: 25px;
+    }
+
+    .tribe-card-text{
+        font-size: 16px;
+        gap: 5px;
+        font-weight: bold;
+    }
+
+    /* -------------------join the tribe end-------------------------  */
+
+     /* -------------------Blog start-------------------------  */
+
+     .title-border-7{
+        border-bottom: 2px solid #D83333;
+        width: 15px;
+        margin-top: -22px;
+        margin-left: 51px;
+    }
+
+    .boat-main-title{
+        margin-left: 3px;
+    }
+
+    .blog-imp{
+        margin-left: -11px;
+        margin-right: -16px;
+    }
+
+    .icon-right-imp{
+        margin-right: -15px !important;
+    }
+
+    .blog-card{
+        width: 280px;
+        height: 335px !important;
+        background-color: #f8f9fa;
+        border: 0.5px solid #e8e9eb;
+    }
+
+    .blog-card-img {
+        height: 120px;
+        width: auto;
+    }
+
+    .blog-ct {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: -12px;
+    }
+
+    .card-text-1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .blog-ct-2{
+        font-size: 12px;
+    }
+
+    .blog-btn {
+        padding: 5px !important;
+        font-size: 12px;
+    }
+
+    .blog-btn:hover {
+        background-color: #f8f9fa;
+        color: black;
+        padding: 5px !important;
+    }
+
+      /* -------------------Blog end-------------------------  */
+
+      /* -------------------footer start-------------------------  */
+
+      .shfooter ul {
+        margin-bottom: 0;
+    }
+
+    .shfooter .collapse {
+        display: none !important;
+    }
+
+    .shfooter .collapse.show {
+        display: block !important;
+    }
+
+    .shfooter .title .fa-minus,
+    .shfooter .title[aria-expanded=true] .fa-plus {
+        display: none;
+    }
+
+    .shfooter .title[aria-expanded=true] .fa-minus {
+        display: block;
+    }
+
+    .shfooter .navbar-toggler {
+        display: inline-block;
+        padding: 0;
+    }
+
+    #footer {
+        background-color: #eff4f7;
+        width: 96%;
+        margin: 5px 5px 5px 8px;
+        padding: 7px;
+    }
+
+    .input-group {
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border: none;
+    }
+
+    .form-control {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .btn-mail {
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+    }
+
+    .btn-mail:focus {
+        box-shadow: none;
+        background-color: white;
+        color: black;
+        border: none;
+    }
+
+    .footer-imp {
+        /* text-align: center; */       
+        padding: 20px 15px 20px;
+        margin-left: 0px !important;
+    }
+
+    .footer-mail {
+        text-align: center !important;
+    }
+
+    .footer-title {
+        font-size: 18px !important;
+        margin-top: 5px;
+    }
+
+    .footer-list {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px 0px 4px;
+    }
+
+    .footer-list-subtitle {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .mobileview-col{
+        margin-top: -15px !important;
+    }
+
+    .information-footer{
+        font-size: 10px;
+    }
+
+    .privacy-policy{
+        font-size: 11px;
+    }
+
+    .copyrights{
+        font-size: 10px;
+    }
+
+    /* #shop{
+        display: inline-block;
+    } */
+
+      /* -------------------footer end-------------------------  */
+}
+
+/* -------------------mobile device endt-------------------------  */
